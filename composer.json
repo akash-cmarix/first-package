@@ -1,0 +1,23 @@
+{
+    "name": "cmarix/FirstPackage",
+    "description": "Description of your package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "cmarix\\FirstPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    }
+    ,"extra": {
+        "laravel": {
+            "providers": [
+                "cmarix\\FirstPackage\\FirstPackageServiceProvider"
+            ]
+        }
+    }
+    
+}
